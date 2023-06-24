@@ -2,8 +2,34 @@
 <html>
     <head>
         <title>Simple Game</title>
+        <link rel="stylesheet" href="style.css"/>
     </head>
-    <body>
+    <body> 
+        <div class="topMSG">
+            <p> </p>
+        </div>
+        <div class="rpsText">
+            <div class="userOutput"></div>
+            <p class="rps"> ROCK  -  PAPER  -  SCISSORS</p>
+            <div class="compOutput"></div>
+        </div> 
+        <div class="content">
+            <div class="choice-container">
+                <div class="btn-container">
+                    <button class="btn rock" type="button" ><img src="images/fist.png"/></button>
+                    <button class="btn  paper" ><img src="images/palm.png" /> </button>
+                    <button class="btn  scissor"  ><img src="images/scissors.png"/></button>
+                </div>
+                <div class="resultOutput">
+                    
+                </div>
+                <div class="scoreReset"></div>
+        </div>
+    </div>  
+    <footer>
+        <p class="bot">©copyright</p>
+    </footer>
+
         <script src="js.js"></script>
     </body>
 </html>

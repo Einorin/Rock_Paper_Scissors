@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@400;800;900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #4CAF50;
+    color:#FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    border: green solid 10px;
+    border-bottom: black
+    
+}
+
+.topMSG{ 
+    margin-top: 20px;   
+    font-size: 24px;
+    align-self: center; 
+}
+
+.rpsText{
+    display: flex;
+    justify-content: space-around;
+}
+
+.userOutput{
+    width: 70px;
+    border: solid 2px white;
+    text-align: center;
+    font-size: 60px;
+    align-self: center; 
+    color: black;
+}
+
+.rps{
+    align-self: center;
+    font-size: 50px;
+    word-spacing: -2px;
+}
+
+.compOutput{
+    width: 70px;
+    border: solid 2px white;
+    text-align: center;
+    font-size: 60px;
+    align-self: center;
+    color: black;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.choice-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding: 20px;
+    gap: 30px;
+    
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding: 20px;   
+    border-radius: 20px;
+    border: 10px solid black;
+
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+img{
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.box{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bot{
+    background-color: black;
+    width: 100%; 
+    text-align: center;
+}
+
+
+.resultOutput{
+    text-align: center;
+    font-size: 28px;
+}
+
+.scoreReset{
+    text-align: center;
+    font-size: 28px;
+    color: black;
+}
